@@ -1,0 +1,28 @@
+{
+    "name": "carl\/weather",
+    "description": "A weather SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "carl",
+            "email": "c982594855@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "phpunit/phpunit": "^7.4",
+        "mockery/mockery": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Carl\\Weather\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Carl\\Weather\\ServiceProvider"
+            ]
+        }
+    }
+}
