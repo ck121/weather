@@ -1,8 +1,8 @@
 <?php
 $header = <<<EOF
-This file is part of the carl/weather.
+This file is part of the Ecss/weather.
 
-(c) carl <c982594855@gmail.com>
+(c) Ecss <c982594855@gmail.com>
 
 This source file is subject to the MIT license that is bundled.
 EOF;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Carl\Weather;
+namespace Ecss\Weather;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

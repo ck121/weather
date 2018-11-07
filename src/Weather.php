@@ -1,10 +1,10 @@
 <?php
 
-namespace Carl\Weather;
+namespace Ecss\Weather;
 
 use GuzzleHttp\Client;
-use Carl\Weather\Exceptions\HttpException;
-use Carl\Weather\Exceptions\InvalidArgumentException;
+use Ecss\Weather\Exceptions\HttpException;
+use Ecss\Weather\Exceptions\InvalidArgumentException;
 
 class Weather
 {

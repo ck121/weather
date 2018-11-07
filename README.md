@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require carl/weather -vvv
+$ composer require Ecss/weather -vvv
 ```
 ##配置
 
@@ -14,7 +14,7 @@ $ composer require carl/weather -vvv
 
 ## 使用
 ```php
-use Carl\Weather\Weather;
+use Ecss\Weather\Weather;
 
 $key = 'xxxxxxxxxxxxxxxx';
 

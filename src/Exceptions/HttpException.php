@@ -1,6 +1,6 @@
 <?php
 
-namespace Carl\Weather\Exceptions;
+namespace Ecss\Weather\Exceptions;
 
 
 class HttpException extends Exception

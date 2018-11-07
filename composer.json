@@ -1,5 +1,5 @@
 {
-    "name": "carl\/weather",
+    "name": "ecss/weather",
     "description": "A weather SDK",
     "license": "MIT",
     "authors": [
@@ -15,13 +15,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Carl\\Weather\\": "src"
+            "Ecss\\Weather\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Carl\\Weather\\ServiceProvider"
+                "Ecss\\Weather\\ServiceProvider"
             ]
         }
     }
